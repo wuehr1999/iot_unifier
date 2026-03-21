@@ -1,0 +1,6 @@
+[submodule "iot_backend"]
+	path = iot_backend
+	url = git@github.com:wuehr1999/iot_backend.git
+[submodule "iot_frontend"]
+	path = iot_frontend
+	url = git@github.com:wuehr1999/iot_frontend.git
