@@ -7,4 +7,5 @@ cd /app/iot_frontend/public
 python3 -m http.server&
 
 cd /app
-./start_backend.sh
+
+iot_backend &> /var/lib/iot_unifier/app_log.txt 

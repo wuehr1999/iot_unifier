@@ -16,7 +16,4 @@ RUN . ./venv/bin/activate; cd iot_backend; pip3 install . --force-reinstall
 
 COPY entrypoint.sh .
 
-COPY start_backend.sh .
-
-
 ENTRYPOINT ["/bin/bash", "/app/entrypoint.sh"]
