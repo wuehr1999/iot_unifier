@@ -8,3 +8,4 @@ python3 -m http.server&
 
 cd /app
 ./start_backend.sh
+

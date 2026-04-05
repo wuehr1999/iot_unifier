@@ -3,9 +3,7 @@ Software infrastructure for unifying different IoT sensor data formats
 
 ## Installation
 
-Fill ```start_backend_sample.sh``` with Your keys and rename it to ```start_backend.sh```.
-More information about the backend configuration can be found at (the iot_backend README)[https://github.com/wuehr1999/iot_backend].
-Then run the following commands.
+Run the following commands to start the software in Docker.
 ~~~
 ./configure.sh
 docker compose up
