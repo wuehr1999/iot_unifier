@@ -2,8 +2,8 @@ FROM ubuntu:24.04
 
 WORKDIR /app
 
+RUN apt-get update -y 
 
-RUN apt -yq update
 RUN apt install -yq curl
 RUN apt install -yq python3 python3-venv
 
